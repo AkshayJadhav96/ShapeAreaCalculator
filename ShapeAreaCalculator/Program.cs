@@ -7,7 +7,7 @@ internal class Program
 {
     static void Main()
     {
-        IShape circ = new Circle(-7);
+        IShape circ = new Circle(7);
         Console.WriteLine($"Circle Area: {circ.Area()}");
     }
 }
